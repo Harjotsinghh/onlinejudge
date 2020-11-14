@@ -32,13 +32,11 @@ int main()
 			loop(j, 1, prices[i][0])
 			cin >> prices[i][j];
 		}
-
 		memset(dp, false, sizeof(dp));
-
 		loop(i, 1, prices[1][0]) {
 			if (m >= prices[1][i]) {
-				dp[1][m - prices[1][i]] = true;
-
+				    =
+				        dp[1][m - prices[1][i]] = true;
 			}
 		}
 
@@ -71,3 +69,4 @@ int main()
 
 	return 0;
 }
+
